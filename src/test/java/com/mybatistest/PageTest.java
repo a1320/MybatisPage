@@ -39,7 +39,7 @@ public class PageTest {
 			StudentMapper mapper = openSession.getMapper(StudentMapper.class);
 			
 			//增加分页代码
-			int yeshu=1;//当前页数
+			int yeshu=2;//当前页数
 			int tiaoshu=5;//显示条数
 			//调用 方法进行分页
 			PageHelper.startPage(yeshu,tiaoshu);			
